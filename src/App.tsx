@@ -55,7 +55,9 @@ export function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'row' }}>
       <SideBar genres={genres} handleClickButton={handleClickButton} selectedGenreId={selectedGenreId} />
-      <Content movies={movies} selectedGenre={selectedGenre}/>
+      <div className="container">
+        <Content movies={movies} selectedGenre={selectedGenre} />
+      </div>
     </div>
   )
 }

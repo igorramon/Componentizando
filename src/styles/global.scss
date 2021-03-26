@@ -18,6 +18,8 @@ body {
   font: 16px "Poppins", Arial, sans-serif;
   color: #FBFBFB;
   background: var(--background);
+
+  
 }
 
 input, textarea {
@@ -26,4 +28,11 @@ input, textarea {
 
 button {
   cursor: pointer;
+}
+
+.container {
+  max-width: 52.5rem;
+  width: 100%;
+
+  margin: 0 auto;
 }
